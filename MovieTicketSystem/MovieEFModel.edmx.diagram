@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fe8a4cf034eb461d955dcd2d1308f89c" Name="Diagram1">
+        <EntityTypeShape EntityType="movieTicketManagementModel.Admin" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="movieTicketManagementModel.BookMovie" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="movieTicketManagementModel.Cashier" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="movieTicketManagementModel.Customer" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="movieTicketManagementModel.Movies" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="movieTicketManagementModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="movieTicketManagementModel.User" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="movieTicketManagementModel.FK_Admin_User_userAcc" ManuallyRouted="false" />
+        <AssociationConnector Association="movieTicketManagementModel.FK_BookMovie_Cashier_id" ManuallyRouted="false" />
+        <AssociationConnector Association="movieTicketManagementModel.FK_BookMovie_Customer_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="movieTicketManagementModel.FK_BookMovie_Movies_id" ManuallyRouted="false" />
+        <AssociationConnector Association="movieTicketManagementModel.FK_Cashier_User_userAcc" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
